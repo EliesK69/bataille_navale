@@ -10,6 +10,7 @@ header{
     display: grid;
     grid-template-columns: 9fr;
     grid-template-rows: 1fr;
+    background-image: url(img/OPOD_header_mobile_new.webp);
 
 }
 
@@ -36,7 +37,7 @@ header{
 
 .container{
 
-    background-color:blue ;
+    background-color: blue;
     color: #D5DBE2;
     grid-template-rows: 4fr;
     grid-template-columns: 9fr;
