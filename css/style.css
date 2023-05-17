@@ -36,7 +36,7 @@ header{
 
 .container{
 
-    background-color: blue;
+    background-color:blue ;
     color: #D5DBE2;
     grid-template-rows: 4fr;
     grid-template-columns: 9fr;
@@ -56,11 +56,15 @@ header{
 #prezJoueur{
             grid-column: 1-2;
             grid-row: 1;
+            grid-template-columns: 6fr;
+            grid-template-rows: 6fr;
 }
 
 #prezOrdi{
             grid-column: 2-3;
             grid-row: 1;
+            grid-template-columns: 6fr;
+            grid-template-rows: 6fr;
 }
 
 #recap{
