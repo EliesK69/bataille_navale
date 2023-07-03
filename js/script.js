@@ -1,5 +1,5 @@
 //attraper les éléments
-const
+
 
 // Déclaration des variables
 const tabJoueur = [
@@ -15,11 +15,35 @@ const tabOrdi = [
     [0,0,0,0]
 ];
 
-const elementsDeplacables = document.querySelectorAll(".drag");
+const navires = [1,1,1,1];
+
+let touches = 0;
+
+let finPartie = false;
+let nbCoups = 0;
+
+let message = ["Navire touché coulé"];
+
+// Variables Drag n drop
+
+const elementsDeplacables = document.querySelectorAll(".zoneDrag");
 const ouDropper = document.querySelectorAll(".ouDropper");
 
 let elementDeplace = null;
 let positionBateauxJoueurs = [];
+
+
+function setJoueur(){
+    if
+}
+
+function setOrdi(){
+    let ordiLocation = tabOrdi[Math.floor(tabOrdi.length * Math.random)][Math.floor(tabOrdi.length * Math.random)];
+}
+Math.random
+
+// Drag n drop
+
 
 elementsDeplacables.forEach(function(element) {
   element.addEventListener('dragstart', function(event) {
@@ -48,12 +72,3 @@ ouDropper.forEach(function(dropZone) {
     }
   });
 });
-
-function setJoueur(){
-    if
-}
-
-function setOrdi(){
-    let ordiLocation = tabOrdi[Math.floor(tabOrdi.length * Math.random)][Math.floor(tabOrdi.length * Math.random)];
-}
-Math.random
